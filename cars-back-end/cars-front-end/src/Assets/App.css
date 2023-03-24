@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 11vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: white;
+}
+
+.header {
+  font-size: 50px;
+}
+
+#post {
+  width: 85px;
+  height: 30px;
+  position: relative;
+  left: 16px;
+}
+
+#model {
+  width: 85px;
+  height: 30px;
+  position: relative;
+  left: 4px;
+}
+
+#seats {
+  width: 85px;
+  height: 30px;
+  position: relative;
+  left: 4px;
+}
+
+#delete {
+  width: 85px;
+  height: 30px;
+  position: relative;
+  left: 4px;
+}
+
+#inp1 {
+  position: relative;
+  right: 4px;
+}
+
+#inp3 {
+  position: relative;
+  left: 4px;
+}
+
+#inp4 {
+  position: relative;
+  left: 8px;
+}
+
+textarea {
+  position: relative;
+  left: 12px;
+  top: 9px;
+  height: 30px;
+  width: 180px;
+}
+
+p {
+  margin-left: 12px;
+}
+
+form {
+  margin-left: 12px;
+}
+
+th {
+  border: 1px solid black;
+  text-align: center;
+  left: auto;
+  right: auto;
+  position: relative;
+}
+
+#cars-h1 {
+  margin-top: 10px;
+}
+
+table {
+  border-spacing: 3px;
+  border: 1px solid black;
+  width: 50%;
+  margin-left: 12px;
+  padding: 10px;
+}
+
+th,
+td {
+  padding: 5px;
+  position: relative;
+  left: 15px;
+  top: 2px;
+  bottom: 1px;
+}
+
+h1 {
+  margin-left: 12px;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: cursive;
+  background-size: cover;
+  box-sizing: border-box;
+  background-origin: padding-box;
+  border: 3px solid darkgrey;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(245, 245, 243, 0.877),
+      rgba(101, 101, 104, 0.493)
+    ),
+    url("./logo.JPG");
+}
+
+img {
+  width: 85px;
+  height: 65px;
+}
+
+#s {
+  position: relative;
+  right: 30px;
+}
+
+#i {
+  position: relative;
+  left: 32px;
+}

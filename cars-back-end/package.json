@@ -1,0 +1,22 @@
+{
+  "name": "cars-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cars_server.js",
+  "author": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \" nodemon ./server/cars_server.js\" \"cd cars-front-end && npm start"
+  },
+  "dependencies": {
+    "concurrently": "7.0.0",
+    "config": "3.3.7",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
